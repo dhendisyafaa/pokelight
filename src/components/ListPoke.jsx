@@ -32,7 +32,7 @@ const ListPoke = ({ id, name, image, type, weight, height, stats, statsName }) =
     return (
         <div className="content grid lg:grid-cols-[60%_40%] grid-cols-1 h-[90vh] overflow-x-hidden">
             <div className='flex flex-col justify-center items-center'>
-                <div className="w-full lg:w-96 flex items-center justify-between rounded header-poke">
+                <div className="w-full lg:w-96 flex items-center justify-between header-poke">
                     <div className='flex items-center'>
                         <img src={image} alt={name} className='w-14 h-14 ml-2' />
                         <p className='font-semibold ml-4 text-white'>No. {id}</p>
