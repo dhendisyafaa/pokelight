@@ -32,12 +32,12 @@ const ListPoke = ({ id, name, image, type, weight, height, stats, statsName }) =
     return (
         <div className="content grid lg:grid-cols-[60%_40%] grid-cols-1 h-[90vh] overflow-x-hidden">
             <div className='flex flex-col justify-center items-center'>
-                <div className="w-full lg:w-96 flex items-center justify-between header-poke">
+                <div className="w-full lg:w-96 flex items-center justify-around header-poke">
                     <div className='flex items-center'>
                         <img src={pokeball} alt={name} className='w-14 h-14 ml-2' />
                         <p className='font-semibold ml-4 text-white'>No. 333</p>
                     </div>
-                    <p className='font-bold text-white'>contoh</p>
+                    <p className='font-bold text-white'>contkakjoh</p>
                 </div>
                 <img src={pokeball} alt="" />
                 <div className='w-96 border flex flex-col gap-3'>
