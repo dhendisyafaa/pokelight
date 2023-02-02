@@ -35,9 +35,9 @@ const ListPoke = ({ id, name, image, type, weight, height, stats, statsName }) =
                 <div className="w-full lg:w-96 flex items-center justify-between header-poke">
                     <div className='flex items-center'>
                         <img src={image} alt={name} className='w-14 h-14 ml-2' />
-                        <p className='font-semibold ml-4 text-white'>No. {id}</p>
+                        <p className='font-semibold ml-4 text-white'>No. 333</p>
                     </div>
-                    <p className='font-bold'>{name}</p>
+                    <p className='font-bold text-white'>contoh</p>
                     <img src={pokeball} alt="Pokeball" className='w-12 h-12' />
                 </div>
                 <img src={pokeball} alt="" />
