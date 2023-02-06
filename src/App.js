@@ -1,6 +1,6 @@
 import './App.css';
 import BottomBar from './components/BottomBar';
-import ListPoke from './components/ListPoke';
+import Pokemon from './components/Pokemon';
 import TopBar from './components/topbar/TopBar';
 
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className=''>
       <TopBar />
-        <ListPoke/>
+        <Pokemon/>
       {/* <BottomBar /> */}
     </div>
   );
