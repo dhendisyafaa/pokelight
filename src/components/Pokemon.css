@@ -1,0 +1,8 @@
+.content{
+    /* background: linear-gradient(130deg, white 40%, #D61C4E 0%); */
+    background-color: #ddd3d8;
+}
+
+.header-poke{
+    background: linear-gradient(130deg, black 60%, #D61C4E 40%); 
+}
